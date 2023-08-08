@@ -1,0 +1,19 @@
+Questões 
+
+Responda sucintamente os itens a seguir em um .txt levando as perguntas e as respostas para o controle de versão da maneira que julgar mais apropriado: 
+
+1. A solução deve ser disponibilizada em Cloud ou On-premise? 
+R: Em Cloud pela facilidade em manutenção e custos.
+
+2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa solução, responda qual ferramenta 
+acreditas ser apropriada para o controle de tarefas da equipe, a ferramenta é ágil? 
+R: Acredito que a melhor ferramenta seja a de scrum pois permite maleabilidade ao desenvolvimento.
+
+3. Você se sente capaz de liderar esta equipe? Por quê? 
+R: Ainda não, pois ainda não tenho conhecimento e experiência suficiente para um cargo de liderança na área.
+
+4. Se pudesse sugerir uma melhoria, mudança ou oportunidade. O que seria? 
+R: Acredito que uma melhoria seria a mudança para o next.js. Eu ainda não tenho conhecimento suficiente nela mas era uma ideia que tinha para executar esse teste.
+
+5. Acha válido esse desafio para o processo que está participando?
+R: Sim, pois é um desafio que abrange todo o processo de desenvolvimento web e prova que o desenvolvedor está apto ao trabalho.

@@ -1,0 +1,37 @@
+services:
+  mongo-container:
+    image: "mongo"
+
+    ports:
+      - "27017:27017"
+    
+    volumes:
+      - /data:/data/db
+    
+    environment:
+      - MONGO_INITDB_DATABASE="bemol"
+    
+    restart: always
+  
+  backend:
+    build: "./back"
+
+    ports:
+      - "8080:8080"
+    
+    depends_on:
+      - mongo-container
+
+    environment:
+      - PORT=8080
+
+    restart: always
+  
+  frontend:
+    build: "./front"
+    
+    ports:
+      - "3000:3000"
+    
+    depends_on:
+      - backend

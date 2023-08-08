@@ -1,0 +1,8 @@
+{
+    "files.encoding": "utf8",
+    "debug.allowBreakpointsEverywhere": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"]
+}

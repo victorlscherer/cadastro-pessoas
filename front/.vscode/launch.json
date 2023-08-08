@@ -1,0 +1,48 @@
+{
+    // Use o IntelliSense para aprender sobre possíveis atributos.
+    // Passe o mouse para ver as descrições dos atributos existentes.
+    // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Node Local",
+            "type": "node",
+            "request": "attach",
+            "protocol": "inspector",
+            "restart": false,
+            "skipFiles": [
+                "<node_internals>/**"
+            ]           
+        },
+        {
+            "name": "Node Remoto",
+            "type": "node",
+            "request": "attach",
+            "address": "192.168.235.50",
+            "port": 9229,
+            "localRoot": "${workspaceFolder}",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "PHP XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "xdebugSettings": {
+                "max_data": -1,
+                "max_children": 9999
+                // "max_depth": -1
+            }
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9000
+        }
+    ]
+}
